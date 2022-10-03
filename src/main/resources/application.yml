@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/redisexample?enabledTLSProtocols=TLSv1.2
+    username: root
+    password: ciao
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    initialize: true
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+redis:
+  database: redisExample
+  password: zBHcr29FSWydjinXRfgQeKigD3Xac01y
+  host: redis-10808.c269.eu-west-1-3.ec2.cloud.redislabs.com
+  port: 10808
